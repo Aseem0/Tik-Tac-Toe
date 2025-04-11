@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.title{
+    color: white;
+    margin-top: 60px;
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.game{
+    height: 50vmin;
+    width: 50vmin;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.box{
+    height: 15vmin;
+    width: 15vmin;
+}
